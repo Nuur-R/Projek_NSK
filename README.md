@@ -83,7 +83,9 @@ Pengembangan server dan database
 | Objective | Status |
 | --------- | ------ |
 | Srver platfrom database | 🔥 |
-| Survey AWS | 🔥 |
+| Survey AWS | ??? |
+| Test layanan AWS | ??? |
 | Survey harga sewa bulanan | ??? |
 | Surver PAAS [Niagahoster / Hostingers / dsb] | ??? |
+
 *Target* : _Mencari platfrom hosting website dan database yang mampu menangani transfer dataa yang *tinggi*_
