@@ -24,6 +24,7 @@ digitalisasi sistem presensi, input data, managemen data produksi dan karyawan.
 🔥 on going
 ☕ masih santui
 ## Desktop App
+> PIC : Daus
 - Card Registrator
 - Attandance KiosK
 - Production KiosK
@@ -64,6 +65,7 @@ digitalisasi sistem presensi, input data, managemen data produksi dan karyawan.
 | Finishing dengan design CSS | ☕ |
 
 ## Web App
+> PIC : Aditya Adriansyah P
 - Managemen
 - Karyawan
 ### Managemen Web App
@@ -79,6 +81,7 @@ Untk request cuti, melihat jatah cuti, melihat data kehadiran dsb
 | ??? | ??? |
 
 ## DevOps
+> PIC : Diky P
 Pengembangan server dan database
 | Objective | Status |
 | --------- | ------ |
@@ -88,4 +91,4 @@ Pengembangan server dan database
 | Survey harga sewa bulanan | ??? |
 | Surver PAAS [Niagahoster / Hostingers / dsb] | ??? |
 
-*Target* : _Mencari platfrom hosting website dan database yang mampu menangani transfer dataa yang *tinggi*_
+> Target : _Mencari platfrom hosting website dan database yang mampu menangani transfer 'dataa yang tinggi'_
