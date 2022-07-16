@@ -82,6 +82,7 @@ Untk request cuti, melihat jatah cuti, melihat data kehadiran dsb
 
 ## DevOps
 > PIC : Diky P
+
 Pengembangan server dan database
 | Objective | Status |
 | --------- | ------ |
