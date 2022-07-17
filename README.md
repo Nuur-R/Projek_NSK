@@ -47,6 +47,9 @@ digitalisasi sistem presensi, input data, managemen data produksi dan karyawan.
 | Komunikasi Python dan JavaScript | 👍 |
 | Baca data cartu RFID dan tampilkan pada GUI | 👍 |
 | Kirim data karyawaan ke databasa | ☕ |
+| insert ke local database sqlite (backup) | ☕ |
+| Menangkap gambar | ☕ |
+| log pengguna | ☕ |
 | Halaman feedback data karyawan | ☕ |
 | Finishing dengan design CSS | ☕ |
 ### Production KiosK
@@ -60,6 +63,9 @@ digitalisasi sistem presensi, input data, managemen data produksi dan karyawan.
 | halamaan produksi 2 | ☕ |
 | halamaan produksi 3 | ☕ |
 | Insert data ke database | ☕ |
+| insert ke local database sqlite (backup) | ☕ |
+| Menangkap gambar | ☕ |
+| log pengguna | ☕ |
 | halamaan produksi [OPSIONAL] | ☕ |
 | fungsi untuk kembali ke halaman semula | ☕ |
 | Finishing dengan design CSS | ☕ |

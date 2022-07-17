@@ -1,22 +1,37 @@
-import threading
+import multiprocessing
 import time
 import rfidReader
+import dataManagemen
+import mysqlConnection
 
 def rfid():
-    # while True:
-    #     print('process 1 = = = = =')
-    #     # time.sleep(1)
-    rfidReader.main()
+    while True:
+        data = rfidReader.rfid_reader()
+        # print('UID : '+data)
+        dataManagemen.updateData(data)
+        
+def readData():
+    while True:
+        data = dataManagemen.readData()
+        print('CSV : '+data)
+        # dataManagemen.dataMatch(data)
+        mysqlConnection.data_checker(data)
+        time.sleep(1)
+        
+def process1():
+    while True:
+        print('process 1= = = = =')
+        time.sleep(1)
     
-def print_square():
+def process2():
     while True:
         print('process 2 = = = = =')
-        time.sleep(1)
+        time.sleep(0.1)
     
 if __name__ == "__main__":
     # creating processes
-    p1 = threading.Thread(target=print_square, args=())
-    p2 = threading.Thread(target=rfid, args=())
+    p1 = multiprocessing.Process(target=rfid, args=())
+    p2 = multiprocessing.Process(target=readData, args=())
 
     # starting process 1
     p1.start()

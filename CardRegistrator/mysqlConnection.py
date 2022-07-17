@@ -13,10 +13,6 @@ def find_cardID(card_number):
 
 def data_checker(card_number):
     card_id = find_cardID(card_number)
-    # print ("card_id: ")
-    # print(type(card_id))
-    # print("card_number: ")
-    # print(type(card_number))
     if card_id is None:
         print('Card not found')
         return False
@@ -25,4 +21,4 @@ def data_checker(card_number):
         return True
 
 
-print(data_checker('247 162 130 203'))
+# print(data_checker(' 247 162 130 203'))

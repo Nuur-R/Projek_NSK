@@ -13,7 +13,7 @@ int statuss = 0;
 int out = 0;
 void setup() 
 {
-    Serial.begin(115200);
+    Serial.begin(9600);
     Serial.setTimeout(1);
     SPI.begin();
     mfrc522.PCD_Init();

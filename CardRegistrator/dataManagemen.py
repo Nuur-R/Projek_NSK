@@ -16,5 +16,5 @@ def dataMatch(dataaa):
         if (dataaa != readData):
             f.writelines(f'{dataaa}')
 
-updateData('247 162 130 203')
-print(readData())
+# updateData('247 162 130 203')
+# print(readData())
